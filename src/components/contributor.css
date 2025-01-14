@@ -1,0 +1,115 @@
+body{
+    margin-bottom: 70px;
+}
+  
+
+/* Contributor Card Grid */
+.contributors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: calc(10px + 1vw); 
+  justify-items: center; 
+  align-items: center;
+  width: 100%; 
+}
+
+/* Contributor Card Styling */
+.contributor-card {
+  background: #ffffff;
+  color: #333;
+  border-radius: 15px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.contributor-card:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.contributor-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #ffcc00; 
+  margin-bottom: 15px;
+}
+
+.contributor-card h3 {
+  font-size: 1.4rem;
+  margin: 10px 0;
+}
+
+.contributor-card a {
+  display: inline-block;
+  margin: 5px 0;
+  color: #ffcc00;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contributor-card a:hover {
+  color: #004e64; 
+  text-decoration: none;
+}
+
+/* Animated Button */
+button {
+  background: #004e64;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-right:5px;
+  transition: transform 0.2s ease, background 0.3s ease;
+  text-transform: uppercase;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: #02a3cf; 
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Button Animation */
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+
+  
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  /* Adjust the grid gap for mobile */
+  .contributors-grid {
+    gap: calc(10px + 2vw); 
+  }
+}
+
+/* Responsive Design for Tablet/Desktop */
+@media (min-width: 768px) {
+  .contributors-grid {
+    gap: calc(10px + 1.5vw); 
+  }
+}
+
+  
+  /* footer  */
+

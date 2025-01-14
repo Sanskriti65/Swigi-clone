@@ -8,6 +8,7 @@ import MainSection4 from './components/MainSection4';
 import MainSection5 from './components/MainSection5';
 import BestPlacesSection from './components/BestPlacesSection';
 import  BottomNavbar  from './components/BottomNavbar';
+import Contributor from './components/contributor';
 
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap once in your entry point
 
@@ -16,13 +17,19 @@ function App() {
     <div>
       
       <Header />
+      
       <MainSection1 />
       <MainSection2 />
+      
       <MainSection3 />
       <MainSection4 />
-      <BestPlacesSection />
-      <MainSection5 />
       
+      <BestPlacesSection />
+      
+      <MainSection5 />
+      <Contributor />
+      
+
       <BottomNavbar/>
     </div>
   );
