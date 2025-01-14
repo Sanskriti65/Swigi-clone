@@ -42,8 +42,8 @@
               <i class="fas fa-question-circle"></i> Help
             </a>
             <a href="#" class="navbar-link">
-              <i class="fas fa-user"></i> Sign In
-            </a>
+                <i class="fas fa-user"></i> Sign in
+              </a>
             <a href="#" class="navbar-link cart">
               <i class="fas fa-shopping-cart"></i> Cart <span class="cart-count">0</span>
             </a>
@@ -103,8 +103,41 @@
 
     </div>
 </section>
-
-
+<br>
+<section class="collections">
+    <h3>Collections</h3>
+    <p>Explore curated list of top restaurents, cafes, bars and much more.</p>
+<div class="collection-cards">
+    <div class="card">
+        <img src="./image/trendyCafe.jpg" alt="Trending Spots">
+        <div class="card-content">
+            <h3>Trending Spots</h3>
+            <p>Discover the most popular places around you.</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="./image/roofTop.jpg" alt="Best Rooftop Restaurants">
+        <div class="card-content">
+            <h3>Best Rooftop Restaurants</h3>
+            <p>Enjoy dining with a view at these top rooftop restaurants.</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="./image/newelyOpen.jpg" alt="Newly Opened Places">
+        <div class="card-content">
+            <h3>Newly Opened Places</h3>
+            <p>Check out the latest additions to the food scene.</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="./image/restaurents.jpg" alt="Insta Worthy Places">
+        <div class="card-content">
+            <h3>Insta Worthy Places</h3>
+            <p>Find the most photogenic spots for your Instagram feed.</p>
+        </div>
+    </div>
+</div>
+</section>
 <section class="section-2">
     <div class="container">     
     <div class="dishes">

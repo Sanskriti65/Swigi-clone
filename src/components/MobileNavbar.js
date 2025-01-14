@@ -1,5 +1,6 @@
 import React from "react";
-import "./Navbar.css";
+import "./MobileNavbar.css";
+import { Link } from "react-router-dom";
 
 
 const MobileNavbar = () => {
@@ -7,7 +8,9 @@ const MobileNavbar = () => {
     <nav className="bottom-navbar">
       <div className="nav-item">
         <i className="fas fa-home"></i>
+        <Link to ="./Home">
         <span>Home</span>
+        </Link>
       </div>
       <div className="nav-item">
         <i className="fas fa-th-large"></i>
@@ -18,8 +21,10 @@ const MobileNavbar = () => {
         <span>Cart</span>
       </div>
       <div className="nav-item">
-        <i className="fas fa-user"></i>
+      <i className="fas fa-user"></i>
+      <Link to ="./Login">
         <span>Account</span>
+        </Link>
       </div>
     </nav>
   );

@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowUpRight } from 'lucide-react';
 import './Header.css'; // Make sure to create a corresponding CSS file
 
-function Header() {
+function Header({ toggleSidebar }) {
   return (
     <header>
       <div className="nav-bar clearfix">
@@ -20,8 +20,8 @@ function Header() {
                 Get the App <ArrowUpRight />
               </a>
             </div>
-            <div className="sign-in">
-              <a href="/signup">Sign in</a>
+            <div className="sign-in" onClick={toggleSidebar}>
+              Sign in
             </div>
           </div>
         </div>

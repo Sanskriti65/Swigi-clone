@@ -1,7 +1,8 @@
 import React from 'react';
 import './MainSection2.css'; // Make sure to create a corresponding CSS file
+import { Link } from 'react-router-dom';
 
-function MainSection2() {
+const MainSection2 = () => {
   return (
     <section className="section-2 clearfix ">
       <div className="menu-boxes ">

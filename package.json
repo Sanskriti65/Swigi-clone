@@ -3,14 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
     "@vercel/speed-insights": "^1.1.0",
     "bootstrap": "^5.3.3",
     "cra-template": "1.2.0",
+    "icons": "^1.0.0",
     "lucide-react": "^0.469.0",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.7",
     "react-dom": "^19.0.0",
     "react-fontawesome": "^1.7.1",
+
+    "react-icons": "^5.4.0",
     "react-router-dom": "^7.1.1",
     "react-scripts": "^5.0.1",
     "web-vitals": "^4.2.4",
@@ -39,5 +43,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "A simple clone of the Swiggy homepage built using **HTML**, **CSS**, and **React**. This project is designed to mimic the look and feel of the original Swiggy homepage and serves as a practice project to enhance web design and frontend development skills.",
+  "main": "script.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
   }
 }

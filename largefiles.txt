@@ -1,0 +1,751 @@
+0 git
+14 CNAME
+16 README.md
+18 CNAME
+30 actions-runner/externals/node20
+33 actions-runner/externals
+36 actions-runner/bin/hashFiles
+37 css
+37 css
+37 css
+37 css
+37 css
+37 css
+37 css
+37 css
+40 .github/workflows
+40 .github/workflows
+40 .github/workflows
+59 static
+59 static
+66 .gitattributes
+67 public/robots.txt
+72 actions-runner/externals/node20/bin
+75 src/pages
+75 src/pages
+88 actions-runner/bin/checkScripts
+91 static
+91 static
+93 .github
+94 static/css
+94 static/css
+94 static/css
+94 static/css
+96 src/pages/signup.js
+107 src/index.css
+110 src/pages
+114 
+116 actions-runner/_diag
+126 .github/ISSUE_TEMPLATE/custom.md
+129 .github
+129 .github
+129 .github
+129 .github
+141 .github/ISSUE_TEMPLATE
+148 static/js
+148 static/js
+148 static/js
+148 static/js
+182 actions-runner/bin/RunnerService.exe.config
+192 src/components/BottomNavbar.js
+193 script.js
+195 static/media
+209 App.js
+214 
+224 .github/ISSUE_TEMPLATE
+237 
+239 
+241 src/setupTests.js
+242 actions-runner/bin/actions.runner.service.template
+245 
+245 
+246 src/App.test.js
+248 
+248 src/components/Login.css
+249 
+253 
+253 
+259 
+262 
+265 
+267 public
+268 actions-runner/.credentials
+269 
+272 
+282 
+284 
+285 
+285 
+285 
+285 
+285 
+285 
+285 
+289 
+289 
+290 src/components/actions-runner/_diag
+291 
+292 
+292 
+292 
+292 
+293 
+294 
+297 
+297 
+297 
+301 
+301 
+304 actions-runner/.runner
+305 src/components/MainSection5.js
+307 
+310 .gitignore
+310 public
+311 
+311 public
+312 
+319 
+324 
+326 .gitignore
+333 src/index.js
+341 src
+350 
+362 src/reportWebVitals.js
+369 asset-manifest.json
+369 asset-manifest.json
+373 src
+373 src
+373 src
+373 src
+373 src
+373 src
+373 src
+373 src
+373 src
+373 src
+373 src
+373 src
+373 src
+373 src
+373 src
+373 src
+390 Dockerfile
+392 
+392 
+392 
+392 
+392 
+394 src/index.js
+401 public/Sanskriti65.json
+402 
+405 src
+405 src
+405 src
+405 src
+405 src
+405 src
+405 src
+405 src
+405 src
+405 src
+418 actions-runner/bin/Runner.Listener.runtimeconfig.json
+425 contact.js
+426 src/components/actions-runner
+427 
+427 
+427 
+427 
+431 actions-runner/bin/macos-run-invoker.js
+439 
+439 
+439 
+439 
+439 
+439 
+439 
+439 
+439 
+439 
+439 
+439 
+477 
+477 
+492 public/manifest.json
+501 actions-runner
+511 
+511 
+511 
+511 
+511 
+511 
+511 
+511 
+511 
+511 
+511 
+511 
+511 
+511 
+511 
+511 
+511 
+511 
+511 
+511 
+511 
+511 
+511 
+511 
+520 src/index.css
+524 src/index.js
+532 actions-runner/bin/runsvc.sh
+548 
+548 
+548 
+548 
+548 
+564 src/App.css
+585 
+588 
+591 
+591 
+591 
+591 
+591 
+591 
+591 
+591 
+591 
+591 
+591 
+591 
+591 
+591 
+591 
+591 
+594 Dockerfile
+595 .github/ISSUE_TEMPLATE/feature_request.md
+611 .github/workflows/workflow.yml
+619 SECURITY.md
+622 
+622 
+624 
+624 
+645 asset-manifest.json
+645 asset-manifest.json
+645 index.html
+645 index.html
+645 index.html
+645 index.html
+646 src/components/MobileNavbar.js
+662 
+690 src/App.js
+697 src/App.js
+697 src/components
+697 src/components
+697 src/components
+697 src/components
+700 
+703 
+709 src/App.js
+712 src/components/BestPlacesSection.js
+735 src/components
+737 
+737 
+737 
+737 
+738 src/components
+738 src/components
+739 
+739 
+740 
+743 
+760 src/App.js
+766 .github/workflows/workflow.yml
+776 src/components
+782 src/App.js
+783 src/components/BestPlacesSection.css
+789 src/App.js
+810 .github/workflows/workflow.yml
+812 src/components/Header.js
+816 src/components
+816 src/components
+847 src/components/MainSection3.css
+847 src/components/alertpop.js
+850 src/components/MainSection5.css
+870 package.json
+874 src/App.js
+910 package.json
+913 src/components
+913 src/components
+913 src/components
+940 actions-runner/bin/actions.runner.plist.template
+942 package.json
+960 src/components/MainSection2.css
+966 src/fonts
+999 src/components
+999 src/components
+1021 src/components/Header.js
+1037 src/components
+1037 src/components
+1048 src/App.js
+1053 src/components/Login.js
+1062 src/App.js
+1062 src/components/Header.js
+1064 src/components/MainSection1.js
+1073 LICENSE
+1075 actions-runner/run.cmd
+1076 src/components
+1076 src/components
+1077 
+1077 
+1077 
+1077 
+1077 
+1080 src/components
+1084 SECURITY.md
+1087 
+1089 SECURITY.md
+1110 src/App.js
+1114 src/App.js
+1115 src/components/MainSection1.js
+1124 
+1125 src/components/MainSection4.css
+1126 
+1126 
+1132 
+1141 
+1143 
+1145 
+1147 
+1152 
+1155 
+1159 
+1159 
+1159 
+1160 
+1160 
+1160 
+1162 
+1162 
+1163 
+1163 
+1163 
+1163 
+1163 
+1163 
+1163 
+1165 
+1165 
+1165 
+1165 
+1170 
+1170 
+1170 
+1177 
+1177 src/components/MainSection4.js
+1179 
+1181 
+1181 
+1184 
+1184 
+1188 
+1190 src/components/MainSection4.js
+1193 
+1194 
+1199 actions-runner/config.cmd
+1210 static/js/main.19c62f09.js.LICENSE.txt
+1216 
+1218 
+1218 
+1230 
+1255 .github/PULL_REQUEST_TEMPLATE.md
+1277 package.json
+1298 src/components/MainSection4.css
+1312 src/components/MainSection3.js
+1319 
+1384 static/js/main.bbe7abe8.js.LICENSE.txt
+1408 README.md
+1426 src/components/Navbar.css
+1461 src/components/Navbar.css
+1463 contact.css
+1464 src/components/Contact.css
+1502 src/components/MainSection3.js
+1538 .github/ISSUE_TEMPLATE/bug_report.yml
+1549 Contact.css
+1565 README.md
+1601 public/images
+1616 src/components/Contact.css
+1617 README.md
+1619 actions-runner/run-helper.cmd
+1629 README.md
+1632 README.md
+1661 src/components/ContactUs.css
+1679 src/components/MainSection1.css
+1690 src/components/MainSection2.js
+1699 src/components/MainSection2.js
+1721 public/index.html
+1722 public/index.html
+1767 image
+1852 src/components/MainSection1.css
+1894 actions-runner/.credentials_rsaparams
+1894 src/components/actions-runner/.credentials_rsaparams
+1898 .github/ISSUE_TEMPLATE/feature_request.yml
+1914 .github/ISSUE_TEMPLATE/documentation_update.yml
+1972 README.md
+1981 README.md
+2174 contact.html
+2240 actions-runner/bin/checkScripts/makeWebRequest.js
+2528 src/components/ContactForm.js
+2620 ContactForm.js
+2632 src/logo.svg
+2663 actions-runner/run-helper.sh.template
+3132 src/components/contact.js
+3535 actions-runner/bin/darwin.svc.sh.template
+3870 public/favicon.ico
+3885 src/components/Header.css
+4004 actions-runner/bin/checkScripts/downloadCert.js
+4006 src/components/Header.css
+4009 src/components/Header.css
+4270 src/components/ContactUs.js
+5151 actions-runner/bin/systemd.svc.sh.template
+5347 public/logo192.png
+5815 src/components/contact.js
+5937 actions-runner/bin/update.cmd.template
+6416 css/index.css
+6439 css/index.css
+7168 actions-runner/bin/Runner.PluginHost.dll
+7185 src/components/actions-runner/_diag/Runner_20250104-100750-utc.log
+7324 actions-runner/bin/installdependencies.sh
+7464 image/Swiggy_logo_bml6he.png
+7663 image/fruit7.avif
+7704 css/index.css
+8603 index.html
+8605 index.html
+8779 src/components/actions-runner/_diag/Runner_20250104-102353-utc.log
+9058 css/index.css
+9209 css/index.css
+9336 index.html
+9338 index.html
+9383 index.html
+9421 actions-runner/bin/update.sh.template
+9507 index.html
+9664 public/logo512.png
+9834 image/fruit8.avif
+9896 src/components/actions-runner/_diag/Runner_20250104-100955-utc.log
+9897 src/components/actions-runner/_diag/Runner_20250104-101357-utc.log
+9974 index.html
+10347 Swiggy_logo.png
+10753 index.html
+10943 image/fruit10.avif
+11010 css/index.css
+11033 css/index.css
+11484 image/Cake.avif
+12052 image/fruit6.avif
+12128 index.html
+12303 css/index.css
+12503 src/components/actions-runner/_diag/Runner_20250104-100629-utc.log
+13010 actions-runner/bin
+13641 image/0a688af1-1bb4-4a55-8128-31fc79cc9ad0_6d0abb9a-daff-4fbe-a1c9-2dddb6ae6717.avif
+13871 actions-runner/_diag/Runner_20250107-184005-utc.log
+13974 image/Pastry.avif
+14755 image/Burger.avif
+15410 image/Rolls.avif
+15624 actions-runner/bin/Microsoft.Win32.Primitives.dll
+15624 actions-runner/bin/System.IO.FileSystem.Primitives.dll
+15624 actions-runner/bin/System.Numerics.dll
+15624 actions-runner/bin/System.Security.Cryptography.OpenSsl.dll
+15624 actions-runner/bin/System.Web.dll
+15632 actions-runner/bin/System.IO.UnmanagedMemoryStream.dll
+15648 actions-runner/bin/System.Resources.Reader.dll
+15648 actions-runner/bin/System.ValueTuple.dll
+15656 actions-runner/bin/System.Buffers.dll
+15656 actions-runner/bin/System.Globalization.Extensions.dll
+15656 actions-runner/bin/System.Reflection.Extensions.dll
+15656 actions-runner/bin/System.Security.Principal.dll
+15664 actions-runner/bin/System.AppContext.dll
+15664 actions-runner/bin/System.Diagnostics.Tools.dll
+15664 actions-runner/bin/System.Runtime.Handles.dll
+15664 actions-runner/bin/System.Security.SecureString.dll
+15672 actions-runner/bin/System.IO.Compression.FileSystem.dll
+15672 actions-runner/bin/System.Runtime.CompilerServices.Unsafe.dll
+15672 actions-runner/bin/System.Runtime.InteropServices.RuntimeInformation.dll
+15672 actions-runner/bin/System.Threading.Timer.dll
+16000 actions-runner/bin/Microsoft.Bcl.AsyncInterfaces.dll
+16136 actions-runner/bin/System.Reflection.Primitives.dll
+16136 actions-runner/bin/System.Resources.ResourceManager.dll
+16136 actions-runner/bin/System.Runtime.Serialization.Json.dll
+16136 actions-runner/bin/System.Security.Cryptography.Primitives.dll
+16136 actions-runner/bin/System.Windows.dll
+16136 actions-runner/bin/System.Xml.XDocument.dll
+16144 actions-runner/bin/System.IO.dll
+16144 actions-runner/bin/System.Threading.Overlapped.dll
+16152 actions-runner/bin/System.Reflection.Emit.Lightweight.dll
+16152 actions-runner/bin/System.Security.Cryptography.Csp.dll
+16152 actions-runner/bin/System.Text.Encoding.dll
+16152 actions-runner/bin/System.Threading.ThreadPool.dll
+16152 actions-runner/bin/System.Xml.Linq.dll
+16152 actions-runner/bin/System.Xml.XmlDocument.dll
+16160 actions-runner/bin/System.Globalization.dll
+16160 actions-runner/bin/System.IO.FileSystem.dll
+16160 actions-runner/bin/System.Security.Cryptography.Encoding.dll
+16160 actions-runner/bin/System.Text.Encoding.Extensions.dll
+16168 actions-runner/bin/System.Globalization.Calendars.dll
+16168 actions-runner/bin/System.ServiceProcess.dll
+16168 actions-runner/bin/System.Threading.Tasks.Extensions.dll
+16176 actions-runner/bin/System.Diagnostics.Debug.dll
+16176 actions-runner/bin/System.Numerics.Vectors.dll
+16176 actions-runner/bin/System.Reflection.Emit.ILGeneration.dll
+16184 actions-runner/bin/System.Data.DataSetExtensions.dll
+16184 actions-runner/bin/System.Runtime.Loader.dll
+16184 actions-runner/bin/System.Threading.Thread.dll
+16184 actions-runner/bin/System.Xml.XPath.dll
+16239 image/fruit5.avif
+16384 actions-runner/bin/RunnerService.exe
+16424 image/Dosa.avif
+16656 actions-runner/bin/System.IO.Pipes.AccessControl.dll
+16656 actions-runner/bin/System.Transactions.dll
+16664 actions-runner/bin/System.Diagnostics.Contracts.dll
+16664 actions-runner/bin/System.Reflection.dll
+16664 actions-runner/bin/System.Security.Cryptography.Cng.dll
+16664 actions-runner/bin/WindowsBase.dll
+16680 actions-runner/bin/System.Diagnostics.Tracing.dll
+16680 actions-runner/bin/System.Dynamic.Runtime.dll
+16680 actions-runner/bin/System.Xml.Serialization.dll
+17176 actions-runner/bin/System.ComponentModel.DataAnnotations.dll
+17176 actions-runner/bin/System.ServiceModel.Web.dll
+17176 actions-runner/bin/System.Threading.Tasks.dll
+17184 actions-runner/bin/System.Security.Cryptography.X509Certificates.dll
+17192 actions-runner/bin/System.Runtime.Serialization.dll
+17200 actions-runner/bin/System.Runtime.Serialization.Xml.dll
+17208 actions-runner/bin/System.Runtime.Intrinsics.dll
+17509 actions-runner/_diag/Runner_20250107-183803-utc.log
+17519 image/Paratha.avif
+17680 actions-runner/bin/System.Security.Cryptography.Algorithms.dll
+17688 actions-runner/bin/System.Net.dll
+17712 actions-runner/bin/Microsoft.VisualBasic.dll
+18159 image/frui5.avif
+18216 actions-runner/bin/System.Xml.XmlSerializer.dll
+18224 actions-runner/bin/System.Runtime.Extensions.dll
+18432 actions-runner/bin/Minimatch.dll
+18712 actions-runner/bin/System.Security.dll
+19334 image/fruit4.avif
+19488 actions-runner/bin/Microsoft.IdentityModel.Abstractions.dll
+19640 image/fruit3.avif
+19760 actions-runner/bin/System.Configuration.dll
+19896 image/Shawarma.avif
+20059 image/frui9.avif
+20543 image/frui2.avif
+20776 actions-runner/bin/System.Drawing.dll
+21067 image/Kebab.avif
+22328 actions-runner/bin/System.Xml.ReaderWriter.dll
+23145 image/Pure Veg.avif
+23848 actions-runner/bin/System.Core.dll
+23848 actions-runner/bin/System.Xml.dll
+23959 image/Gulab Jamun.avif
+25384 actions-runner/bin/System.Data.dll
+26341 image/Momo.avif
+27230 image/Pizza.avif
+28264 actions-runner/bin/System.Memory.Data.dll
+29296 actions-runner/bin/System.IO.Hashing.dll
+30108 image/Pav Bhaji.avif
+30141 image/Chinese.avif
+30689 image/Ice Cream.avif
+30739 image/Salad.avif
+30984 actions-runner/bin/System.ComponentModel.dll
+30984 actions-runner/bin/System.Xml.XPath.XDocument.dll
+31032 actions-runner/bin/System.Runtime.CompilerServices.VisualC.dll
+31798 image/Pasta.avif
+32424 image/App_download_banner.avif
+34034 image/North Indian.avif
+34562 image/dineout.avif
+35107 image/genie.avif
+36616 actions-runner/bin/System.Security.Cryptography.ProtectedData.dll
+36888 actions-runner/bin/Microsoft.IdentityModel.Logging.dll
+39224 actions-runner/bin/System.Runtime.Serialization.Primitives.dll
+39374 image/Biryani.avif
+43304 actions-runner/bin/System.Net.WebProxy.dll
+43312 actions-runner/bin/System.Reflection.TypeExtensions.dll
+43816 actions-runner/bin/System.Runtime.dll
+47107 image/instamart.avif
+47368 actions-runner/bin/System.ComponentModel.EventBasedAsync.dll
+47384 actions-runner/bin/System.Diagnostics.FileVersionInfo.dll
+47384 actions-runner/bin/System.Net.ServicePoint.dll
+47416 actions-runner/bin/System.Diagnostics.StackTrace.dll
+47848 image/delivery.avif
+50440 actions-runner/bin/System.dll
+51464 actions-runner/bin/System.Resources.Writer.dll
+51480 actions-runner/bin/System.Runtime.InteropServices.JavaScript.dll
+54426 image/Sushi_replace.avif
+55592 actions-runner/bin/System.IO.Compression.ZipFile.dll
+55608 actions-runner/bin/System.IO.FileSystem.DriveInfo.dll
+57539 image/Veggies_new.avif
+58368 actions-runner/bin/Runner.Sdk.dll
+59696 actions-runner/bin/mscorlib.dll
+59704 actions-runner/bin/System.Web.HttpUtility.dll
+61800 actions-runner/bin/createdump.exe
+67872 actions-runner/bin/System.Net.WebHeaderCollection.dll
+67896 actions-runner/bin/System.Diagnostics.TextWriterTraceListener.dll
+76048 actions-runner/bin/System.Reflection.DispatchProxy.dll
+80136 actions-runner/bin/System.ComponentModel.Primitives.dll
+80184 actions-runner/bin/System.ObjectModel.dll
+82983 actions-runner/bin/Sdk.deps.json
+83904 actions-runner/bin/System.IdentityModel.Tokens.Jwt.dll
+84264 actions-runner/bin/System.IO.MemoryMappedFiles.dll
+84280 actions-runner/bin/System.IO.Compression.Brotli.dll
+84280 actions-runner/bin/System.Threading.dll
+84905 actions-runner/bin/Runner.Common.deps.json
+87728 actions-runner/bin/System.ServiceProcess.ServiceController.dll
+88368 actions-runner/bin/System.IO.FileSystem.Watcher.dll
+92448 actions-runner/bin/System.IO.IsolatedStorage.dll
+96544 actions-runner/bin/System.Runtime.InteropServices.dll
+96552 actions-runner/bin/System.Net.Ping.dll
+97720 actions-runner/bin/Newtonsoft.Json.Bson.dll
+100632 actions-runner/bin/System.Security.Claims.dll
+100656 actions-runner/bin/System.Net.WebSockets.Client.dll
+101160 actions-runner/bin/netstandard.dll
+104728 actions-runner/bin/System.IO.FileSystem.AccessControl.dll
+104752 actions-runner/bin/System.Collections.NonGeneric.dll
+104760 actions-runner/bin/System.Collections.Specialized.dll
+111050 actions-runner/bin/Runner.PluginHost.deps.json
+111128 actions-runner/bin/System.ClientModel.dll
+112640 actions-runner/bin/Runner.Plugins.dll
+112878 actions-runner/bin/Runner.Worker.deps.json
+112904 actions-runner/bin/System.Net.NameResolution.dll
+113499 actions-runner/bin/Runner.Listener.deps.json
+114984 image/newelyOpen.jpg
+121128 actions-runner/bin/Microsoft.Win32.Registry.dll
+121154 actions-runner/bin/Runner.Sdk.deps.json
+121555 actions-runner/bin/Runner.Plugins.deps.json
+126880 src/fonts/Gilroy-Heavy.ttf
+129312 actions-runner/bin/System.Reflection.Emit.dll
+129328 actions-runner/bin/System.Net.Http.Json.dll
+131924 src/fonts/Gilroy-Black.ttf
+132016 actions-runner/bin/Microsoft.IdentityModel.JsonWebTokens.dll
+133044 src/fonts/Gilroy-ExtraBold.ttf
+133408 actions-runner/bin/System.Threading.Channels.dll
+133416 actions-runner/bin/System.Text.Encodings.Web.dll
+133424 actions-runner/bin/System.Drawing.Primitives.dll
+133424 actions-runner/bin/System.Threading.Tasks.Parallel.dll
+135324 src/fonts/Gilroy-HeavyItalic.ttf
+137016 actions-runner/bin/mscorrc.dll
+137256 src/fonts/Gilroy-Bold.ttf
+138752 actions-runner/bin/Runner.Listener.exe
+138752 actions-runner/bin/Runner.PluginHost.exe
+138752 actions-runner/bin/Runner.Worker.exe
+139308 src/fonts/Gilroy-BlackItalic.ttf
+139820 src/fonts/Gilroy-SemiBold.ttf
+140890 image/restaurents.jpg
+143724 src/fonts/Gilroy-Medium.ttf
+145148 src/fonts/Gilroy-Regular.ttf
+145560 src/fonts/Gilroy-ExtraBoldItalic.ttf
+145712 actions-runner/bin/System.Diagnostics.TraceSource.dll
+147128 src/fonts/Gilroy-Light.ttf
+149692 src/fonts/Gilroy-UltraLight.ttf
+150092 src/fonts/Gilroy-Thin.ttf
+150396 src/fonts/Gilroy-BoldItalic.ttf
+153272 src/fonts/Gilroy-SemiBoldItalic.ttf
+157968 actions-runner/bin/System.Net.NetworkInformation.dll
+157992 actions-runner/bin/System.Memory.dll
+158800 src/fonts/Gilroy-MediumItalic.ttf
+158884 image/roofTop.jpg
+163684 src/fonts/Gilroy-RegularItalic.ttf
+163840 src/fonts/Gilroy-LightItalic.ttf
+165762 image/trendyCafe.jpg
+166064 src/fonts/Gilroy-ThinItalic.ttf
+166176 actions-runner/bin/System.IO.Pipes.dll
+167608 src/fonts/Gilroy-UltraLightItalic.ttf
+170264 actions-runner/bin/System.Net.WebClient.dll
+171784 actions-runner/bin/System.Diagnostics.EventLog.dll
+174376 actions-runner/bin/System.Console.dll
+174376 actions-runner/bin/System.Linq.Queryable.dll
+183879 actions-runner/bin/hashFiles/index.js
+184320 actions-runner/bin/YamlDotNet.dll
+186640 actions-runner/bin/System.Security.Principal.Windows.dll
+189360 actions-runner/bin/System.Net.Http.Formatting.dll
+190752 actions-runner/bin/System.Net.WebSockets.dll
+192774 static/js/main.2fc6357a.js
+193280 static/js/main.19c62f09.js
+194723 static/js/main.31ad4713.js
+195390 static/js/main.bbe7abe8.js
+197120 actions-runner/bin/Runner.Common.dll
+203048 actions-runner/bin/System.ComponentModel.Annotations.dll
+231696 actions-runner/bin/System.Security.AccessControl.dll
+231736 actions-runner/bin/System.Net.Primitives.dll
+240672 actions-runner/bin/Azure.Storage.Common.dll
+244000 actions-runner/bin/System.Formats.Asn1.dll
+244555 static/css/main.9056b5ce.css
+245134 static/css/main.766c01a8.css
+245481 static/css/main.4f3eb2bd.css
+246346 static/css/main.58480877.css
+260400 actions-runner/bin/System.Collections.dll
+260408 actions-runner/bin/System.Private.Uri.dll
+262656 actions-runner/bin/Runner.Listener.dll
+264472 actions-runner/bin/System.IO.Compression.dll
+272664 actions-runner/bin/System.Formats.Tar.dll
+276744 actions-runner/bin/System.Collections.Concurrent.dll
+280864 actions-runner/bin/System.Net.Quic.dll
+291360 actions-runner/bin/Microsoft.IdentityModel.Tokens.dll
+309544 actions-runner/bin/System.Runtime.Serialization.Formatters.dll
+311096 actions-runner/bin/clretwrc.dll
+319776 actions-runner/bin/System.Security.Cryptography.Pkcs.dll
+330024 actions-runner/bin/System.Runtime.Numerics.dll
+338216 actions-runner/bin/System.Diagnostics.Process.dll
+346424 actions-runner/bin/System.Net.Requests.dll
+350496 actions-runner/bin/hostfxr.dll
+364544 actions-runner/bin/Runner.Worker.dll
+393512 actions-runner/bin/hostpolicy.dll
+403768 actions-runner/bin/System.Private.Xml.Linq.dll
+416056 actions-runner/bin/System.Diagnostics.DiagnosticSource.dll
+426552 actions-runner/bin/Azure.Core.dll
+432440 actions-runner/bin/System.Net.Mail.dll
+489736 actions-runner/bin/System.Threading.Tasks.Dataflow.dll
+538136 actions-runner/bin/msquic.dll
+543016 actions-runner/bin/System.Linq.dll
+547096 actions-runner/bin/System.Net.Sockets.dll
+551216 actions-runner/bin/System.Net.HttpListener.dll
+557243 static/css/main.9056b5ce.css.map
+558427 static/css/main.766c01a8.css.map
+559230 static/css/main.4f3eb2bd.css.map
+561314 static/css/main.58480877.css.map
+661683 package-lock.json
+661792 actions-runner/bin/System.Transactions.Local.dll
+662239 package-lock.json
+662694 package-lock.json
+663126 package-lock.json
+663150 package-lock.json
+668456 actions-runner/bin/clrgc.dll
+669992 actions-runner/bin/System.Net.Security.dll
+712464 actions-runner/bin/Newtonsoft.Json.dll
+747824 actions-runner/bin/System.ComponentModel.TypeConverter.dll
+801048 actions-runner/bin/System.Diagnostics.EventLog.Messages.dll
+805128 actions-runner/bin/System.Linq.Parallel.dll
+831256 actions-runner/bin/System.IO.Compression.Native.dll
+837928 actions-runner/bin/System.Collections.Immutable.dll
+862512 actions-runner/bin/System.Text.Encoding.CodePages.dll
+893663 static/js/main.2fc6357a.js.map
+895034 static/js/main.19c62f09.js.map
+903558 static/js/main.31ad4713.js.map
+905331 static/js/main.bbe7abe8.js.map
+1005840 actions-runner/bin/Microsoft.CSharp.dll
+1022264 actions-runner/bin/System.Text.RegularExpressions.dll
+1098240 actions-runner/bin/Sdk.dll
+1116440 actions-runner/bin/System.Reflection.Metadata.dll
+1241616 actions-runner/bin/mscordbi.dll
+1247496 actions-runner/bin/Microsoft.VisualBasic.Core.dll
+1338384 actions-runner/bin/mscordaccore.dll
+1343032 actions-runner/bin/Azure.Storage.Blobs.dll
+1501464 actions-runner/bin/System.Text.Json.dll
+1730856 actions-runner/bin/System.Net.Http.dll
+1785112 actions-runner/bin/clrjit.dll
+2050328 actions-runner/bin/System.Security.Cryptography.dll
+2083120 actions-runner/bin/System.Private.DataContractSerialization.dll
+2309152 actions-runner/bin/Microsoft.DiaSymReader.Native.amd64.dll
+2580804 actions-runner/externals/node20/bin/node.lib
+2861368 actions-runner/bin/System.Data.Common.dll
+3676456 actions-runner/bin/System.Linq.Expressions.dll
+5039416 actions-runner/bin/coreclr.dll
+7989544 actions-runner/bin/System.Private.Xml.dll
+13175088 actions-runner/bin/System.Private.CoreLib.dll
+63726879 actions-runner/actions-runner-win-x64-2.321.0.zip
+69804184 actions-runner/externals/node20/bin/node.exe

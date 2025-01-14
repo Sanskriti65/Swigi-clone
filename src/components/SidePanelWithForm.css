@@ -1,0 +1,157 @@
+/* Overlay */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+  }
+  
+  /* Modal Container */
+  .modal-container {
+    position: fixed;
+    top: 0;
+    right: -640px;
+    width: 640px;
+    height: 100%;
+    background: white;
+    box-shadow: -2px 0 8px rgba(0, 0, 0, 0.2);
+    z-index: 50;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .modal-container.open {
+    transform: translateX(-100%);
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    width: 500px;
+    padding: 40px;
+  }
+  
+  .modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .icon-close {
+    font-size: 20px;
+    cursor: pointer;
+    color: #888;
+  }
+  
+  .icon-close:hover {
+    color: #ff5200;
+  }
+  
+  .modal-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .modal-or-create {
+    margin-top: 5px;
+    color: #555;
+  }
+  
+  .create-account-link {
+    color: #ff5200;
+    text-decoration: none;
+  }
+  
+  .create-account-link:hover {
+    text-decoration: underline;
+  }
+  
+  .modal-image {
+    margin-left: auto;
+    display: block;
+  }
+  
+  /* Form Styling */
+  .modal-form {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .input-group {
+    position: relative;
+    margin-bottom: 40px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #ff5200;
+  }
+  
+  .input-label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    transition: all 0.2s ease;
+    color: #888;
+    pointer-events: none;
+  }
+  
+  .input-field:focus + .input-label,
+  .input-field:not(:placeholder-shown) + .input-label {
+    top: -20px;
+    left: 5px;
+    font-size: 14px;
+    color: #ff5200;
+  }
+  
+  .login-button-wrapper {
+    text-align: center;
+  }
+  
+  .login-button {
+    width: 100%;
+    margin-top: -20px;
+    padding: 10px;
+    background: #ff5200;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background: #ea580c;
+  }
+  
+  .terms-conditions {
+    font-size: 12px;
+    color: #888;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .terms-link,
+  .privacy-link {
+    color: #ff5200;
+    text-decoration: none;
+  }
+  
+  .terms-link:hover,
+  .privacy-link:hover {
+    text-decoration: underline;
+  }
+  .flex-col{
+    display: flex;
+    flex-direction: column;
+  }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './MainSection4.css';
+import { Link } from 'react-router-dom';
 
 const items = [
   { id: 1, src: '/images/frui2.avif', alt: 'Basket of fresh apples' },
@@ -8,7 +9,7 @@ const items = [
   { id: 4, src: '/images/frui9.avif', alt: 'Fresh berries' },
 ];
 
-function MainSection4() {
+const MainSection4 = () => {
   return (
     <section className="section-4">
       <div className="container">

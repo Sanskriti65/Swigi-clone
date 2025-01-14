@@ -117,6 +117,7 @@ a{
     /* position: relative; */  
 }
 .top-text-center h1{
+    margin-top: 2rem;
     text-align: center;
     width: 85%;
     margin-top: -25%;
@@ -151,7 +152,13 @@ a{
     right:0;
     margin-top: -35%;
 }
+
+.search-bar .input-location i {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
 .search-bar{
+    margin: 2rem 0;
     width: 100%;
     height: 100%;
     color: white;
@@ -162,6 +169,7 @@ a{
     text-align: center;
     padding: 5px;
     gap: 10px;
+    margin-bottom: 20px;
 }
 .input-location input{
     height: 54px;
@@ -182,7 +190,7 @@ a{
     padding: 10px;
 }
 .menu-boxes{
-    margin-top: -250px;
+    margin-top:-80px;
 }
 .boxes{
     display: -webkit-box;
@@ -313,6 +321,76 @@ a{
     color: #000;
 }
 
+footer {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+  }
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .footer-column {
+    flex: 1 1 200px;
+    margin: 10px;
+  }
+  .footer-column img{
+    background-color: #ff5200;
+    padding: 20px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+  }
+  .footer-column h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333;
+  }
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+  }
+  .footer-column ul li a:hover {
+    color: #ff5722;
+  }
+  .footer-social {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .footer-social a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #666;
+  }
+  .footer-social a:hover {
+    color: #ff5722;
+  }
+  .footer-legal {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #999;
+  }
+  @media (max-width: 768px) {
+    .footer-column {
+      flex: 1 1 100%;
+      text-align: center;
+    }
+  }
+
+
 /* General Reset */
 * {
     margin: 0;
@@ -352,6 +430,7 @@ a{
   .logo {
     height: 40px;
     margin-right: 20px;
+    border-radius: 20px;
   }
   
   .dropdown {
@@ -473,3 +552,83 @@ a{
     }
   }
   
+  .collection-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.collection-cards .card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 300px;
+    height: 400px; /* Set a fixed height for the card */
+    padding: 0; /* Remove padding to ensure consistent dimensions */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    text-align: center;
+}
+
+.collection-cards .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.collection-cards .card h3 {
+    color: #ff5200;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.collection-cards .card p {
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.collection-cards .card a {
+    color: #ffffff;
+    background-color: #ff5200;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.collection-cards .card a:hover {
+    background-color: #e64a00;
+}
+
+.collection-cards .card img {
+    width: 100%;
+    height: 200px; /* Set a fixed height for the image */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.collection-cards .card .card-content {
+    padding: 20px; /* Add padding to the card content */
+    height: calc(100% - 200px); /* Adjust height to fit within the card */
+    box-sizing: border-box; /* Ensure padding doesn't affect overall dimensions */
+}
+.collections {
+    text-align: center;
+    padding: 20px;
+}
+
+.collections h3 {
+    font-size: 32px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.collections p {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+

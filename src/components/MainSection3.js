@@ -1,7 +1,8 @@
 import React from 'react';
 import './MainSection3.css';
+import { Link } from 'react-router-dom';
 
-function MainSection3() {
+const MainSection3= () => {
   return (
     <section className="section-3">
       <div className="container">

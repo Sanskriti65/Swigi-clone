@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Signin & Sign up</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Left floating images -->
+        <div class="images left">
+            <img src="Pav Bhaji.avif" alt="Image 1">
+            <img src="Pastry.avif" alt="Image 2">
+            <img src="Kebab.avif" alt="Image 3">
+        </div>
+
+    <div class="wrapper">
+        <div class="form-container sign-up">
+            <form action="#">
+                <h2>sign up</h2>
+                <div class="form-group">
+                    <input type="text" required>
+                    <i class="fas fa-user"></i>
+                    <label for="">username</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" required>
+                    <i class="fas fa-at"></i>
+                    <label for="">email</label>
+                </div>
+                <div class="form-group">
+                    <input type="password" required>
+                    <i class="fas fa-lock"></i>
+                    <label for="">password</label>
+                </div>
+                <div class="form-group">
+                    <input type="password" required>
+                    <i class="fas fa-lock"></i>
+                    <label for="">confirm password</label>
+                </div>
+                <button type="submit" class="btn">sign up</button>
+                <div class="link">
+                    <p>You already have an account?<a href="#" class="signin-link"> sign in</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form action="#">
+                <h2>login</h2>
+                <div class="form-group">
+                    <input type="text" required>
+                    <i class="fas fa-user"></i>
+                    <label for="">username</label>
+                </div>
+                <div class="form-group">
+                    <input type="password" required>
+                    <i class="fas fa-lock"></i>
+                    <label for="">password</label>
+                </div>
+                <div class="forgot-pass">
+                    <a href="#">forgot password?</a>
+                </div>
+                <button type="submit" class="btn">login</button>
+                <div class="link">
+                    <p>Don't have an account?<a href="#" class="signup-link"> sign up</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="images right">
+        <img src="Ice Cream.avif" alt="Image 4">
+        <img src="Burger.avif" alt="Image 5">
+        <img src="Dosa.avif" alt="Image 6">
+    </div>
+    <script src="https://kit.fontawesome.com/9e5ba2e3f5.js" crossorigin="anonymous"></script>
+    <script> let wrapper = document.querySelector('.wrapper'),
+        signUpLink = document.querySelector('.link .signup-link'),
+        signInLink = document.querySelector('.link .signin-link');
+    
+    signUpLink.addEventListener('click', () => {
+        wrapper.classList.add('animated-signin');
+        wrapper.classList.remove('animated-signup');
+    });
+    
+    signInLink.addEventListener('click', () => {
+        wrapper.classList.add('animated-signup');
+        wrapper.classList.remove('animated-signin');
+    });</script>
+</body>
+
+</html>
