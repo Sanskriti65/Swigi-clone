@@ -88,8 +88,9 @@
                
             </div>
             <div class="specific">
-                <a href="src\pages\instamart.html"><img src="./image/instamart.avif" alt=""></a>
-                
+                <a href="#" onclick="loadInstamartJS();">
+                    <img src="./image/instamart.avif" alt="">
+                </a>
             </div>
             <div class="specific">
                 <a href="#"><img src="./image/dineout.avif" alt=""></a>
@@ -326,5 +327,12 @@
 
     </footer>
     <script src="script.js"></script>
+    <script>
+        function loadInstamartJS() {
+            const script = document.createElement('script');
+            script.src = 'src/pages/instamart.js';
+            document.body.appendChild(script);
+        }
+    </script>
 </body>
 </html>
