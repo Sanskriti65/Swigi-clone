@@ -3,10 +3,14 @@ import React, { useState } from "react";
 import "./Login.css";
 import { Link } from "react-router-dom";
 
+const Login = ({ toggleSidebar }) => {
+  const [mobile, setMobile] = useState("");
+  const [error, setError] = useState("");
 
-const Login = ({toggleSidebar }) => {
-  const [mobile, setMobile] = useState(""); // Changed to 'mobile'
-  const [error, setError] = useState(""); // Error state for validation
+  const handleMobileChange = (e) => {
+    const value = e.target.value.replace(/\D/g, '').slice(0, 10);
+    setMobile(value);
+  };
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -19,7 +23,6 @@ const Login = ({toggleSidebar }) => {
     console.log("Logged in with mobile:", mobile);
     localStorage.setItem("isAuthenticated", "true");
     toggleSidebar();
-
   };
 
   const handleCancel = () => {
@@ -38,8 +41,20 @@ const Login = ({toggleSidebar }) => {
             className="input-field"
             maxLength="10"
             value={mobile}
-            onChange={(e) => setMobile(e.target.value)}
+            onChange={handleMobileChange}
+            onKeyDown={(e) => {
+              if (!/[0-9]|Backspace|Delete|ArrowLeft|ArrowRight|Tab/.test(e.key)) {
+                e.preventDefault();
+              }
+            }}
+            onPaste={(e) => {
+              const paste = (e.clipboardData || window.clipboardData).getData('text');
+              if (!/^\d+$/.test(paste)) {
+                e.preventDefault();
+              }
+            }}
             autoComplete="off"
+            inputMode="numeric"
             required
           />
           <label htmlFor="mobile" className="input-label">
@@ -54,8 +69,6 @@ const Login = ({toggleSidebar }) => {
             Login
           </button>
         </div>
-
-        
 
         <div className="terms-conditions">
           By clicking on Login, I accept the{" "}
