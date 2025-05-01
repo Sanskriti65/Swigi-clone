@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Signup.css";
 import { useNavigate } from "react-router-dom";
 
-const Signup = ({toggleSidebar}) => {
+const Signup = ({ toggleSidebar }) => {
   const [formData, setFormData] = useState({
     mobile: "",
     name: "",
@@ -10,10 +10,35 @@ const Signup = ({toggleSidebar}) => {
   });
 
   const [error, setError] = useState("");
-  const navigate=useNavigate();
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    const { name, value } = e.target;
+    
+    if (name === "mobile") {
+      // Remove all non-digit characters
+      const digitsOnly = value.replace(/\D/g, '');
+      setFormData({ ...formData, [name]: digitsOnly });
+    } else {
+      setFormData({ ...formData, [name]: value });
+    }
+  };
+
+  const handleKeyDown = (e) => {
+    if (e.target.name === "mobile") {
+      // Allow: backspace, delete, tab, escape, enter
+      if ([8, 9, 27, 13, 46].includes(e.keyCode) ||
+          // Allow: Ctrl+A, Ctrl+C, Ctrl+V, Ctrl+X
+          (e.ctrlKey && [65, 67, 86, 88].includes(e.keyCode)) ||
+          // Allow: home, end, left, right
+          (e.keyCode >= 35 && e.keyCode <= 39)) {
+        return;
+      }
+      // Prevent if not a number
+      if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
+        e.preventDefault();
+      }
+    }
   };
 
   const handleSignup = (e) => {
@@ -54,7 +79,9 @@ const Signup = ({toggleSidebar}) => {
             maxLength="10"
             value={formData.mobile}
             onChange={handleChange}
+            onKeyDown={handleKeyDown}
             autoComplete="off"
+            inputMode="numeric"
             required
           />
           <label htmlFor="mobile" className="input-label">
